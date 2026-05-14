@@ -66,14 +66,16 @@ A 2D top-down RPG built with **Unity** featuring dynamic combat, strategic dunge
 
 ---
 
-## 📸 Screenshots
+## 🎬 Gameplay Demo
 
-### Gameplay
-*Add screenshots by replacing these placeholders with images from `Docs/Video Gameplay.mp4`*
+### Full Gameplay Walkthrough
 
-| | | |
-|---|---|---|
-| **Town Hub** - Safe haven for trading and preparation | **Dungeon Combat** - Real-time action RPG gameplay | **Boss Battle** - Epic encounters with unique mechanics |
+<video width="100%" controls>
+  <source src="Docs/Video%20Gameplay.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+*Watch the video above to see the core gameplay, combat mechanics, and dungeon exploration in action!*
 
 ---
 
