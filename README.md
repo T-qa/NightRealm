@@ -2,7 +2,7 @@
 
 A 2D top-down RPG built with **Unity** featuring dynamic combat, strategic dungeon exploration, pathfinding AI enemies, and a rich progression system.
 
-![Game Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen) ![Unity Version](https://img.shields.io/badge/Unity-2022.3.28f1-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Game Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen) ![Unity Version](https://img.shields.io/badge/Unity-6000.3.10f1-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
@@ -12,7 +12,7 @@ A 2D top-down RPG built with **Unity** featuring dynamic combat, strategic dunge
 
 ### Quick Start
 - **Game Scenes**: Menu → CutScene → Game (Town) → DungeonFloor1 → BossMap
-- **Editor**: Open in Unity 2022.3.28f1 or later
+- **Editor**: Open in Unity 6000.3.10f1 or later
 - **Play**: Press `Play` in the editor or build for your platform
 
 ---
@@ -208,10 +208,7 @@ This is an active development project. To contribute:
 
 ---
 
-## 🐛 Known Issues & Roadmap
-
-### Known Issues
-- [ ] [List any known bugs or limitations]
+## 🐛 Roadmap
 
 ### Planned Features
 - [ ] Additional dungeon floors with unique themes
@@ -240,20 +237,6 @@ This is an active development project. To contribute:
 ## 📝 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
-
----
-
-## 👥 Credits
-
-### Development
-- **Project**: Night Realm - Dungeon Quest
-- **Platform**: Unity Engine
-- **Dependencies**: URP, Cinemachine, TextMesh Pro, DOTween, A* Pathfinding
-
-### Assets & Tools
-- Character sprites and animations
-- Sound effects and music
-- UI assets and icons
 
 ---
 
