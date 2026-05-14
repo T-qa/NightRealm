@@ -2,7 +2,7 @@
 
 A 2D top-down RPG built with **Unity** featuring dynamic combat, strategic dungeon exploration, pathfinding AI enemies, and a rich progression system.
 
-![Game Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen) ![Unity Version](https://img.shields.io/badge/Unity-2022.3.28f1-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Game Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen) ![Unity Version](https://img.shields.io/badge/Unity-6000.3.10f1-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
