@@ -19,12 +19,9 @@ A 2D top-down RPG built with **Unity** featuring dynamic combat, strategic dunge
 
 ## 🎬 Gameplay Demo
 
-<video width="100%" controls>
-  <source src="Docs/Video%20Gameplay.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch Gameplay](https://img.shields.io/badge/▶️-Watch%20Gameplay%20Video-blue?style=for-the-badge)](Docs/Video%20Gameplay.mp4)
 
-*Watch the video above to see the core gameplay, combat mechanics, and dungeon exploration in action!*
+[📽️ Full Gameplay Walkthrough](Docs/Video%20Gameplay.mp4) - Watch the video to see the core gameplay, combat mechanics, and dungeon exploration in action!
 
 ---
 
