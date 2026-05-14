@@ -1,10 +1,10 @@
-# Dungeon Quest Developer Guide
+# Night Realm Developer Guide
 
 This document is a combined Game Design Document and engineering architecture guide for the current Unity 2D top-down RPG codebase. It is written for game developers who need to understand the implemented game, maintain it, and extend it without losing the existing design intent.
 
 Source of truth used for this document:
 
-- Unity version: `2022.3.28f1`, from `ProjectSettings/ProjectVersion.txt`.
+- Unity version: `6000.3.10f1`, from `ProjectSettings/ProjectVersion.txt`.
 - Build scenes: `Menu`, `Game`, `Town`, `DungeonFloor1`, `BossMap`, `CutScene`, from `ProjectSettings/EditorBuildSettings.asset`.
 - Runtime packages: Unity 2D suite, URP, Cinemachine, Input System, TextMesh Pro, Timeline, UGUI, DOTween. The old A* Pathfinding Project asset may still exist in the repository, but gameplay AI now uses the project-owned A* implementation under `Assets/Scripts/Pathfinding`.
 - Game-owned C# code: `Assets/Scripts`, excluding generated `Assets/Scripts/InputSystem/InputActions.cs`.
@@ -15,7 +15,7 @@ Third-party and generated source such as DOTween modules, Unity-generated `Input
 
 ### 1.1 Game Overview
 
-The project is a Unity 2D top-down RPG named `Dungeon Quest` in code strings. The current game structure is a hub-and-dungeon flow:
+The project is a Unity 2D top-down RPG named `Night Realm` in code strings. The current game structure is a hub-and-dungeon flow:
 
 - The player starts from a menu or registration flow.
 - The persistent `Game` scene initializes global systems and loads a gameplay map additively.
