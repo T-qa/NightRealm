@@ -17,6 +17,17 @@ A 2D top-down RPG built with **Unity** featuring dynamic combat, strategic dunge
 
 ---
 
+## 🎬 Gameplay Demo
+
+<video width="100%" controls>
+  <source src="Docs/Video%20Gameplay.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+*Watch the video above to see the core gameplay, combat mechanics, and dungeon exploration in action!*
+
+---
+
 ## ✨ Features
 
 ### 🎮 Core Gameplay
@@ -63,19 +74,6 @@ A 2D top-down RPG built with **Unity** featuring dynamic combat, strategic dunge
 - **Modern Input System**: Unity's new Input System integration
 - **Multiple Input Types**: Movement, ability casting, interactions
 - **Rebindable Controls**: Support for custom keybindings
-
----
-
-## 🎬 Gameplay Demo
-
-### Full Gameplay Walkthrough
-
-<video width="100%" controls>
-  <source src="Docs/Video%20Gameplay.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-*Watch the video above to see the core gameplay, combat mechanics, and dungeon exploration in action!*
 
 ---
 
@@ -149,7 +147,6 @@ Assets/
 
 Comprehensive developer documentation is available in:
 - **[GAME_DEV_GUIDE.md](./Docs/GAME_DEV_GUIDE.md)** - Complete GDD, architecture, and implementation details
-- **[Gameplay Video](./Docs/Video%20Gameplay.mp4)** - Visual walkthrough of core gameplay
 
 ### Key Systems Documentation
 
