@@ -1,20 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public enum DamageState
-{
-    NormalDamage,
-    CriticalDamage,
-    BlockDamage,
-    Miss
-}
-
-public enum DamageType
-{
-    PhysicalDamage,
-    MagicDamage,
-    EnvinronmentalDamage
-}
+// DamageState and DamageType enums moved to Core/Definitions/CombatEnums.cs
 
 public class DamageBlock
 {

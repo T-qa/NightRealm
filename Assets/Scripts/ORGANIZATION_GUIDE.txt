@@ -1,0 +1,150 @@
+/*
+ * ============================================================================
+ * PROJECT CODE ORGANIZATION GUIDE
+ * ============================================================================
+ * 
+ * This document outlines the professional code organization for the 2D RPG project.
+ * All scripts are organized by functional domain with clear separation of concerns.
+ *
+ * ============================================================================
+ * CORE SYSTEMS (Assets/Scripts/Core/)
+ * ============================================================================
+ *
+ * Core/Definitions/
+ *   └─ Consolidated enum definitions used across the project
+ *      • CombatEnums.cs         - DamageState, DamageType, FighterTeam
+ *      • AbilityEnums.cs        - EffectType, Respond, TargetType, BonusType
+ *      • ItemEnums.cs           - ItemRarity, EquipmentSlot, ItemType
+ *      • StatEnums.cs           - Stat, StatusEffect
+ *      • AudioEnums.cs          - AudioMixerGroup, AudioType
+ *
+ * Core/Data/
+ *   └─ Pure data/serializable classes (no game logic)
+ *      • ResourceBlock.cs       - Health/Mana resource management data
+ *      • StatModifier.cs        - Stat modification data
+ *
+ * Core/ScriptableObjects/
+ *   └─ All ScriptableObject assets and factory classes
+ *      • AudioAsset.cs          - Audio clip asset definition
+ *      • ColorData.cs           - Centralized color configuration
+ *      • BaseStatData.cs        - Character stat configuration
+ *      • ItemFactory/
+ *         └─ BaseItemFactory.cs - Base for creating item scriptable objects
+ *      • EffectFactory/
+ *         └─ BaseEffectFactory.cs - Base for creating effect scriptable objects
+ *
+ * ============================================================================
+ * GAMEPLAY SYSTEMS
+ * ============================================================================
+ *
+ * Gameplay/Character/
+ *   ├─ Movement/              - Player/Character movement logic
+ *   └─ Combat/                - Character combat system
+ *
+ * Gameplay/Enemy/
+ *   ├─ Boss/                  - Boss-specific abilities and behavior
+ *   └─ Basic/                 - General enemy AI
+ *
+ * Gameplay/Items/
+ *   ├─ Equipment/             - Equipment system
+ *   ├─ Consumables/           - Consumable items
+ *   └─ ItemBase.cs            - Base item class
+ *
+ * Gameplay/Interaction/
+ *   ├─ Interactables/         - Door, Chest, Portal, NPC interactions
+ *   ├─ Traps/                 - Spike traps and other hazards
+ *   └─ Indicators/            - Visual indicators for interactive objects
+ *
+ * Gameplay/Progression/
+ *   ├─ LevelManager/          - Level progression logic
+ *   ├─ Spawning/              - Enemy spawning system
+ *   └─ Stages/                - Stage configuration
+ *
+ * ============================================================================
+ * TECHNICAL SYSTEMS
+ * ============================================================================
+ *
+ * AI/
+ *   ├─ Pathfinding/           - A* pathfinding implementation
+ *   └─ Behavior/              - Monster AI behavior trees
+ *
+ * Input/
+ *   ├─ InputSystem/           - Input handling
+ *   └─ AStarMovementInput.cs  - Pathfinding-based movement input
+ *
+ * Audio/
+ *   ├─ Manager/               - Audio system manager
+ *   ├─ Sources/               - Audio source pooling
+ *   └─ Utilities/             - Audio helper classes
+ *
+ * UI/
+ *   ├─ Combat/                - Combat-related UI (CastingBar, DamageFeedback)
+ *   ├─ HUD/                   - Head-up display elements
+ *   ├─ Panels/                - Panel-based UI (menus, inventory)
+ *   ├─ WorldUI/               - World-space UI (health bars, labels)
+ *   ├─ Effects/               - Visual effects (hover, animations)
+ *   └─ Buttons/               - Button interaction handlers
+ *
+ * ObjectPooling/
+ *   └─ Object pooling system for optimization
+ *
+ * ============================================================================
+ * GUIDELINES FOR ADDING NEW SCRIPTS
+ * ============================================================================
+ *
+ * 1. ENUMS:
+ *    - If it's a standalone enum used across multiple systems → Core/Definitions/
+ *    - If it's tightly coupled to a single class → Keep it in that class
+ *
+ * 2. SERIALIZABLE/DATA CLASSES:
+ *    - Pure data structures with no game logic → Core/Data/
+ *    - Classes with behavior → Keep in their respective gameplay folder
+ *
+ * 3. SCRIPTABLE OBJECTS:
+ *    - All ScriptableObject classes → Core/ScriptableObjects/
+ *    - Then create subfolders by type (ItemFactory, EffectFactory, etc.)
+ *
+ * 4. GAME LOGIC:
+ *    - Organize by feature/domain (Character, Enemy, Item, etc.)
+ *    - Create subfolders for related functionality
+ *    - Keep related code physically close
+ *
+ * 5. UTILITIES:
+ *    - General utilities → Extension/ folder
+ *    - System-specific utilities → That system's folder structure
+ *
+ * ============================================================================
+ * NAMING CONVENTIONS
+ * ============================================================================
+ *
+ * Classes:
+ *   • Base classes    → "Base" prefix (BaseMovementInput, BaseInteractable)
+ *   • Interfaces      → "I" prefix (IInteractable, IPoolObject, ISerializable)
+ *   • Managers        → "Manager" suffix (AudioManager, PoolManager)
+ *   • Handlers        → "Handler" suffix (EventManager, InputCentral)
+ *
+ * Files:
+ *   • One public class per file
+ *   • File name matches class name
+ *   • Enums can be grouped if logically related
+ *
+ * Namespaces:
+ *   • Tqa.DungeonQuest.* for organized namespaces
+ *   • Core systems use full namespace
+ *   • Gameplay systems use top-level namespace
+ *
+ * ============================================================================
+ * NOTES
+ * ============================================================================
+ *
+ * - The "Charactor" typo in the folder name should be updated to "Character"
+ *   when refactoring is complete (requires updating prefab references)
+ *
+ * - Enum consolidation in Core/Definitions provides a single source of truth
+ *   for all enum definitions across the project
+ *
+ * - ScriptableObject centralization in Core/ScriptableObjects makes it easy to
+ *   find and manage all data assets
+ *
+ * ============================================================================
+ */

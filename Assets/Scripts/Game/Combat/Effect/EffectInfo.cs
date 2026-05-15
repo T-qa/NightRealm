@@ -5,15 +5,7 @@ namespace Tqa.DungeonQuest.AbilitySystem
     [System.Serializable]
     public class EffectInfo
     {
-        public enum EffectType
-        {
-            PhysicsDamage,
-            MagicDamage,
-            Buff,
-            Debuff,
-            Heal,
-            DamageOverTime
-        }
+        // EffectType enum moved to Core/Definitions/AbilityEnums.cs for shared use
 
         private static string TypeToString(EffectType type) =>
             type switch
