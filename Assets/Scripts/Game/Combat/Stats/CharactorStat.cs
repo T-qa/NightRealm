@@ -1,7 +1,19 @@
 using System;
 using System.Collections.Generic;
 
-// Stat enum moved to Core/Definitions/StatEnums.cs
+public enum Stat
+{
+    MaxHealth,
+    MaxMana,
+    MoveSpeed,
+    AttackPower,
+    Defence,
+    BlockChance,
+    Accuracy,
+    Evasion,
+    CriticalChance,
+    CritticalHitDamage
+}
 
 [Serializable]
 public class CharactorStat
