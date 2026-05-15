@@ -1,5 +1,5 @@
 ﻿using System.Collections;
-using Tqa.DungeonQuest.AbilitySystem;
+using Qanht.NightRealm.AbilitySystem;
 using UnityEngine;
 
 public class RangeAICombatBehaviour : BaseAICombatBehaviour

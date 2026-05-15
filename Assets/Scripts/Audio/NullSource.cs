@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace Tqa.DungeonQuest.AudioManagement
+namespace Qanht.NightRealm.AudioManagement
 {
     public class NullSource : PoolingAudioSource
     {

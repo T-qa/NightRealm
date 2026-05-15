@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using Tqa.DungeonQuest.AbilitySystem;
-using Tqa.DungeonQuest.AbilitySystem.Spell;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.AbilitySystem;
+using Qanht.NightRealm.AbilitySystem.Spell;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.TheBoss
+namespace Qanht.NightRealm.TheBoss
 {
     public class BossDamageZoneSpellCenter : PoolObject, ISpell
     {

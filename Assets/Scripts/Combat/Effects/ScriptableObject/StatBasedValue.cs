@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     [Serializable]
     public class StatBasedValue

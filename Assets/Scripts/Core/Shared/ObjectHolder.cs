@@ -1,4 +1,4 @@
-﻿namespace Tqa.DungeonQuest.EventManagers
+﻿namespace Qanht.NightRealm.EventManagers
 {
     public class ObjectHolder<T>
     {

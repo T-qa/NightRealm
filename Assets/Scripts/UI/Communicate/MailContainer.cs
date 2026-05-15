@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Tqa.DungeonQuest.Communicate
+namespace Qanht.NightRealm.Communicate
 {
     public class MailContainer : MonoBehaviour
     {

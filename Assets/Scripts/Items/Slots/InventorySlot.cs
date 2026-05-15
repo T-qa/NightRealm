@@ -2,9 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Tqa.DungeonQuest.AbilitySystem;
-using Tqa.DungeonQuest.AudioManagement;
-using Tqa.DungeonQuest.EventManagers;
+using Qanht.NightRealm.AbilitySystem;
+using Qanht.NightRealm.AudioManagement;
+using Qanht.NightRealm.EventManagers;
 using UnityEngine.InputSystem;
 
 public class InventorySlot : ItemSlot<IItem>

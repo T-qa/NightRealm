@@ -3,7 +3,7 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.Pool;
 
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     [CreateAssetMenu(fileName = "Passive rune", menuName = "Rune/Passive")]
     public class PassiveRune : Rune

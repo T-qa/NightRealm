@@ -1,5 +1,5 @@
-using Tqa.DungeonQuest.AbilitySystem;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.AbilitySystem;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 using UnityEngine.UI;
 

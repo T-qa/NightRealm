@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     [CreateAssetMenu(fileName = "BuffDeBuff", menuName = "Effects/Duration/BuffDeBuff")]
     public class DurationBuffEffectFactory : BuffEffectFactory

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Tqa.DungeonQuest.ObjectPooling
+namespace Qanht.NightRealm.ObjectPooling
 {
     [RequireComponent(typeof(IPoolObject))]
     public class Prefab : MonoBehaviour

@@ -1,6 +1,6 @@
 ﻿using System;
-using Tqa.DungeonQuest.Communicate;
-using Tqa.DungeonQuest.EventManagers;
+using Qanht.NightRealm.Communicate;
+using Qanht.NightRealm.EventManagers;
 
 public class RewardSlot : ItemSlot<IItem>
 {

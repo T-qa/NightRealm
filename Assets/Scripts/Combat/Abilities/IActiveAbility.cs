@@ -1,4 +1,4 @@
-﻿namespace Tqa.DungeonQuest.AbilitySystem
+﻿namespace Qanht.NightRealm.AbilitySystem
 {
     public interface IActiveAbility : IAbility
     {

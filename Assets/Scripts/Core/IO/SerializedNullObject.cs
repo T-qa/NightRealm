@@ -1,6 +1,6 @@
 using System;
 
-namespace Tqa.DungeonQuest.IOSystem
+namespace Qanht.NightRealm.IOSystem
 {
     [Serializable]
     public class SerializedNullObject : SerializedObject

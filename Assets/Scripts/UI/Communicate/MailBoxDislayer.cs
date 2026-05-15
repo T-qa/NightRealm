@@ -2,7 +2,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.Communicate
+namespace Qanht.NightRealm.Communicate
 {
     public class MailBoxDislayer : MonoBehaviour
     {

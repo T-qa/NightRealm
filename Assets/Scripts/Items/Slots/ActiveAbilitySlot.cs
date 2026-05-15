@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using DG.Tweening;
-using Tqa.DungeonQuest.AbilitySystem;
+using Qanht.NightRealm.AbilitySystem;
 using UnityEngine;
 using UnityEngine.UI;
 

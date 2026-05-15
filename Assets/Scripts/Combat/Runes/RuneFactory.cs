@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     [CreateAssetMenu(menuName = "Item/RuneFatory")]
     public class RuneFactory : BaseItemFactory

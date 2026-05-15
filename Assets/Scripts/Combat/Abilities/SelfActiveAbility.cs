@@ -1,9 +1,9 @@
 ﻿using System.Text;
-using Tqa.DungeonQuest.AudioManagement;
-using Tqa.DungeonQuest.IOSystem;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.AudioManagement;
+using Qanht.NightRealm.IOSystem;
+using Qanht.NightRealm.ObjectPooling;
 
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     public class SelfActiveAbility : ActiveAbility<SelfActiveRune>
     {

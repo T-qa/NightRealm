@@ -1,9 +1,9 @@
 ﻿using System.Text;
-using Tqa.DungeonQuest.IOSystem;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.IOSystem;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     public class TargetingAbility : ActiveAbility<TargetingRune>
     {

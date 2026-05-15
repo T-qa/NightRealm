@@ -1,4 +1,4 @@
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 
 public class HitVFX : PoolObject

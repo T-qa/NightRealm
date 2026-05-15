@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using TMPro;
-using Tqa.DungeonQuest.EventManagers;
-using Tqa.DungeonQuest.IOSystem;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.EventManagers;
+using Qanht.NightRealm.IOSystem;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.Communicate
+namespace Qanht.NightRealm.Communicate
 {
     public class Messenger : MonoBehaviour
     {

@@ -1,4 +1,4 @@
-﻿using Tqa.DungeonQuest.AbilitySystem;
+﻿using Qanht.NightRealm.AbilitySystem;
 using UnityEngine;
 
 public static class ColorHelper

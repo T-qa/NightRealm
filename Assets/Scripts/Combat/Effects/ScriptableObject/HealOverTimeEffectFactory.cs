@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     [CreateAssetMenu(fileName = "Effects", menuName = "Effects/Duration/Over time/Recorvery")]
     public class HealOverTimeEffectFactory : BaseEffectFactory

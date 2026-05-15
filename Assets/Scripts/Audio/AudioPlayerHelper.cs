@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.AudioManagement
+namespace Qanht.NightRealm.AudioManagement
 {
     /// <summary>
     /// Use for play audio throught unity event on scene

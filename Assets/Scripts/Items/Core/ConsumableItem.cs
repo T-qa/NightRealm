@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Tqa.DungeonQuest.AbilitySystem;
-using Tqa.DungeonQuest.AudioManagement;
-using Tqa.DungeonQuest.IOSystem;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.AbilitySystem;
+using Qanht.NightRealm.AudioManagement;
+using Qanht.NightRealm.IOSystem;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 
 public class ConsumableItem : IItem, IStackableItem, IUsableItem

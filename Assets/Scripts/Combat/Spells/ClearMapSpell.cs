@@ -1,9 +1,9 @@
 ﻿using System.Collections;
-using Tqa.DungeonQuest.AudioManagement;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.AudioManagement;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.AbilitySystem.Spell
+namespace Qanht.NightRealm.AbilitySystem.Spell
 {
     public class ClearMapSpell : PoolObject, ISpell
     {

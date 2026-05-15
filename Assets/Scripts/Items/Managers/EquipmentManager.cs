@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Tqa.DungeonQuest.AbilitySystem;
-using Tqa.DungeonQuest.EventManagers;
-using Tqa.DungeonQuest.IOSystem;
+using Qanht.NightRealm.AbilitySystem;
+using Qanht.NightRealm.EventManagers;
+using Qanht.NightRealm.IOSystem;
 using UnityEngine;
 
 public class EquipmentManager : MonoBehaviour

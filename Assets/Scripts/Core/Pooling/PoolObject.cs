@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.ObjectPooling
+namespace Qanht.NightRealm.ObjectPooling
 {
     public class PoolObject : MonoBehaviour, IPoolObject
     {

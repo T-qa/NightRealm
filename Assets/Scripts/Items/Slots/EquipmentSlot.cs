@@ -1,5 +1,5 @@
-﻿using Tqa.DungeonQuest.AudioManagement;
-using Tqa.DungeonQuest.EventManagers;
+﻿using Qanht.NightRealm.AudioManagement;
+using Qanht.NightRealm.EventManagers;
 using UnityEngine;
 using UnityEngine.UI;
 

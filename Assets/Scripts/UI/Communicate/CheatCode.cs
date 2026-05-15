@@ -1,7 +1,7 @@
-﻿using Tqa.DungeonQuest.AbilitySystem;
-using Tqa.DungeonQuest.AudioManagement;
-using Tqa.DungeonQuest.Communicate;
-using Tqa.DungeonQuest.IOSystem;
+﻿using Qanht.NightRealm.AbilitySystem;
+using Qanht.NightRealm.AudioManagement;
+using Qanht.NightRealm.Communicate;
+using Qanht.NightRealm.IOSystem;
 using UnityEngine;
 
 public static class CheatCode

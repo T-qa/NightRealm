@@ -1,5 +1,5 @@
 ﻿using System;
-using Tqa.DungeonQuest.IOSystem;
+using Qanht.NightRealm.IOSystem;
 
 [Serializable]
 public class ItemArray : SerializedObject, ISerializable

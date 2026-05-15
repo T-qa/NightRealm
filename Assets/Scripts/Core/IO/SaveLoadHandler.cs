@@ -2,7 +2,7 @@
 using System.IO;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.IOSystem
+namespace Qanht.NightRealm.IOSystem
 {
     public static class SaveLoadHandler
     {

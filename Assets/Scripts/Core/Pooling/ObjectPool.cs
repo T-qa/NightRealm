@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.ObjectPooling
+namespace Qanht.NightRealm.ObjectPooling
 {
     public class ObjectPool
     {

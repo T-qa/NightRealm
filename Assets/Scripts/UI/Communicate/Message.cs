@@ -1,8 +1,8 @@
 ﻿using TMPro;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.Communicate
+namespace Qanht.NightRealm.Communicate
 {
     public class Message : PoolObject
     {

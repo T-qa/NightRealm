@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using TMPro;
-using Tqa.DungeonQuest.EventManagers;
-using Tqa.DungeonQuest.IOSystem;
+using Qanht.NightRealm.EventManagers;
+using Qanht.NightRealm.IOSystem;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-namespace Tqa.DungeonQuest.MainMenu
+namespace Qanht.NightRealm.MainMenu
 {
     public class SelectorController : MonoBehaviour
     {

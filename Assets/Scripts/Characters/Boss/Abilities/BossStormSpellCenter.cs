@@ -1,6 +1,6 @@
-using Tqa.DungeonQuest.AbilitySystem;
-using Tqa.DungeonQuest.AbilitySystem.Spell;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.AbilitySystem;
+using Qanht.NightRealm.AbilitySystem.Spell;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 
 public class BossStormSpellCenter : PoolObject, ISpell

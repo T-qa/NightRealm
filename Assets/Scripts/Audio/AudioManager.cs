@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace Tqa.DungeonQuest.AudioManagement
+namespace Qanht.NightRealm.AudioManagement
 {
     public static class AudioManager
     {

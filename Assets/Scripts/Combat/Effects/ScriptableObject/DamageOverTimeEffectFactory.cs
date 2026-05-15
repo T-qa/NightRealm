@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Pool;
 
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     [CreateAssetMenu(fileName = "Damage", menuName = "Effects/Duration/Over time/Damage")]
     public class DamageOverTimeEffectFactory : BaseEffectFactory

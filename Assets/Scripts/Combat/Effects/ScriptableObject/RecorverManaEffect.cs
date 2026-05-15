@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     [CreateAssetMenu(fileName = "Recovery Effect", menuName = "Effects/Instant/RecorverMana")]
     public class RecorverManaEffect : BaseEffectAndFactory

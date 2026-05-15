@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Tqa.DungeonQuest.TheBoss
+namespace Qanht.NightRealm.TheBoss
 {
     public class BossAIController : MonoBehaviour
     {

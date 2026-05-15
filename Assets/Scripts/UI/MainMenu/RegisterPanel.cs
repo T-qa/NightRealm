@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using TMPro;
-using Tqa.DungeonQuest.IOSystem;
+using Qanht.NightRealm.IOSystem;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Tqa.DungeonQuest.MainMenu
+namespace Qanht.NightRealm.MainMenu
 {
     public class RegisterPanel : MonoBehaviour
     {

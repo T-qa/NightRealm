@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     public abstract class ActiveRune : Rune
     {

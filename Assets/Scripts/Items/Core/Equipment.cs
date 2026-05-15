@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Tqa.DungeonQuest.AbilitySystem;
-using Tqa.DungeonQuest.IOSystem;
+using Qanht.NightRealm.AbilitySystem;
+using Qanht.NightRealm.IOSystem;
 using UnityEngine;
 
 public class Equipment : IItem

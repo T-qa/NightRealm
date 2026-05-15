@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Pool;
 
-namespace Tqa.DungeonQuest.ObjectPooling
+namespace Qanht.NightRealm.ObjectPooling
 {
     public class PrefixPool : MonoBehaviour
     {

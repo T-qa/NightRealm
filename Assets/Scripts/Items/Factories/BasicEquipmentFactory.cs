@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Tqa.DungeonQuest.AbilitySystem;
+using Qanht.NightRealm.AbilitySystem;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Equipment", menuName = "Item/BasicEquipment")]

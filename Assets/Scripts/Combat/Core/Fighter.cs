@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Tqa.DungeonQuest.AbilitySystem;
+using Qanht.NightRealm.AbilitySystem;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]

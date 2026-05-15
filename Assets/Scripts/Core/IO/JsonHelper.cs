@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Tqa.DungeonQuest.AbilitySystem;
+using Qanht.NightRealm.AbilitySystem;
 using UnityEngine;
 using UnityEngine.Pool;
 
-namespace Tqa.DungeonQuest.IOSystem
+namespace Qanht.NightRealm.IOSystem
 {
     public static class JsonHelper
     {

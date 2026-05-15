@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace Tqa.DungeonQuest.AudioManagement
+namespace Qanht.NightRealm.AudioManagement
 {
     public class AudioSettingForUI : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using Tqa.DungeonQuest.IOSystem;
+using Qanht.NightRealm.IOSystem;
 using UnityEngine;
 
 public interface IItem : ISerializable

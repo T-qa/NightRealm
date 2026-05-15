@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Tqa.DungeonQuest.AbilitySystem;
-using Tqa.DungeonQuest.AbilitySystem.Spell;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.AbilitySystem;
+using Qanht.NightRealm.AbilitySystem.Spell;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 using UnityEngine.Pool;
 
-namespace Tqa.DungeonQuest.TheBoss
+namespace Qanht.NightRealm.TheBoss
 {
     public class BossMinionSpawnSpell : PoolObject, ISpell
     {

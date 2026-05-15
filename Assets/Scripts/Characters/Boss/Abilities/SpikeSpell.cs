@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using DG.Tweening;
-using Tqa.DungeonQuest.AudioManagement;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.AudioManagement;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.AbilitySystem.Spell
+namespace Qanht.NightRealm.AbilitySystem.Spell
 {
     public class SpikeSpell : PoolObject, ISpell
     {

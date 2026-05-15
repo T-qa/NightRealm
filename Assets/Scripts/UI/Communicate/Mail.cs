@@ -1,4 +1,4 @@
-﻿namespace Tqa.DungeonQuest.Communicate
+﻿namespace Qanht.NightRealm.Communicate
 {
     public class Mail
     {

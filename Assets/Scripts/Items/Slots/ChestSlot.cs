@@ -1,4 +1,4 @@
-﻿using Tqa.DungeonQuest.EventManagers;
+﻿using Qanht.NightRealm.EventManagers;
 
 public class ChestSlot : ItemSlot<IItem>
 {

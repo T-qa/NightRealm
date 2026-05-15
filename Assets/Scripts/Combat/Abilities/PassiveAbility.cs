@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Tqa.DungeonQuest.IOSystem;
+using Qanht.NightRealm.IOSystem;
 
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     public class PassiveAbility : Ability<PassiveRune>, IPassiveAbility
     {

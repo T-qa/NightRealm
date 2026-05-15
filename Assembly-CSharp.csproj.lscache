@@ -57,7 +57,7 @@ Assets/Scripts/Audio/
  AudioSettingForUI.cs
  NullSource.cs
  PoolingAudioSource.cs
-Assets/Scripts/Bosses/Abilities/
+Assets/Scripts/Characters/Boss/Abilities/
  BossDamageZoneSpell.cs
  BossDamageZoneSpellCenter.cs
  BossHandFireCenter.cs

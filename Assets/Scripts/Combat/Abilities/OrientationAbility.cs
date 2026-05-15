@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Text;
-using Tqa.DungeonQuest.AbilitySystem.Spell;
-using Tqa.DungeonQuest.IOSystem;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.AbilitySystem.Spell;
+using Qanht.NightRealm.IOSystem;
+using Qanht.NightRealm.ObjectPooling;
 
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     public class OrientationAbility : ActiveAbility<OrientationRune>
     {

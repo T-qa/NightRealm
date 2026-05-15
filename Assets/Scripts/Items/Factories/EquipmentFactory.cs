@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using Tqa.DungeonQuest.AbilitySystem;
-using Tqa.DungeonQuest.IOSystem;
+using Qanht.NightRealm.AbilitySystem;
+using Qanht.NightRealm.IOSystem;
 using UnityEngine;
 
 public abstract class EquipmentFactory : BaseItemFactory, ISerializable

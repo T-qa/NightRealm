@@ -1,7 +1,7 @@
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.AbilitySystem.Spell
+namespace Qanht.NightRealm.AbilitySystem.Spell
 {
     public class SwordTrail : PoolObject, ISpell
     {

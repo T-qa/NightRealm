@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using System.Linq;
-using Tqa.DungeonQuest.EventManagers;
+using Qanht.NightRealm.EventManagers;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.IOSystem
+namespace Qanht.NightRealm.IOSystem
 {
     public static class FileNameData
     {

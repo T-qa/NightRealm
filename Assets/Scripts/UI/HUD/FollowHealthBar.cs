@@ -1,4 +1,4 @@
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 using UnityEngine.UI;
 

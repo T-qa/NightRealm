@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Tqa.DungeonQuest.AbilitySystem;
-using Tqa.DungeonQuest.IOSystem;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.AbilitySystem;
+using Qanht.NightRealm.IOSystem;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Consumable", menuName = "Item/Consumable")]

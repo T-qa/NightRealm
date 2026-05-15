@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     [CreateAssetMenu(fileName = "Self active rune", menuName = "Rune/Self active")]
     public class SelfActiveRune : ActiveRune

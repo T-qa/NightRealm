@@ -1,4 +1,4 @@
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     public abstract class BaseEffectAndFactory : BaseEffectFactory, IEffect
     {

@@ -1,4 +1,4 @@
-﻿using Tqa.DungeonQuest.EventManagers;
+﻿using Qanht.NightRealm.EventManagers;
 using UnityEngine;
 using UnityEngine.UI;
 

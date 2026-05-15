@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Tqa.DungeonQuest.AudioManagement;
-using Tqa.DungeonQuest.EventManagers;
-using Tqa.DungeonQuest.IOSystem;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.AudioManagement;
+using Qanht.NightRealm.EventManagers;
+using Qanht.NightRealm.IOSystem;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 
 public class PlayerLevelSystem : MonoBehaviour

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using Tqa.DungeonQuest.EventManagers;
-using Tqa.DungeonQuest.ObjectPooling;
+using Qanht.NightRealm.EventManagers;
+using Qanht.NightRealm.ObjectPooling;
 using UnityEngine;
 
 public class MonsterStageSpawner : MonoBehaviour

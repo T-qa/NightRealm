@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.Communicate
+namespace Qanht.NightRealm.Communicate
 {
     public class MailBox : GlobalReference<MailBox>
     {

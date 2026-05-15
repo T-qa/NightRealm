@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Tqa.DungeonQuest.AudioManagement
+namespace Qanht.NightRealm.AudioManagement
 {
     [CreateAssetMenu(menuName = "AudioAsset")]
     public class AudioAsset : ScriptableObject

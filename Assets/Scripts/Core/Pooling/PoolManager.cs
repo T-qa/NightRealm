@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Tqa.DungeonQuest.EventManagers;
+using Qanht.NightRealm.EventManagers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Tqa.DungeonQuest.ObjectPooling
+namespace Qanht.NightRealm.ObjectPooling
 {
     public static class PoolManager
     {

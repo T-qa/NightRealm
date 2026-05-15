@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Tqa.DungeonQuest.IOSystem;
+using Qanht.NightRealm.IOSystem;
 using UnityEngine;
 
-namespace Tqa.DungeonQuest.AbilitySystem
+namespace Qanht.NightRealm.AbilitySystem
 {
     public abstract class Rune : BaseItemFactory, IItem
     {

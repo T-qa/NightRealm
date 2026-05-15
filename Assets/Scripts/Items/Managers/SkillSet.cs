@@ -1,7 +1,7 @@
 ﻿using System;
-using Tqa.DungeonQuest.AbilitySystem;
-using Tqa.DungeonQuest.EventManagers;
-using Tqa.DungeonQuest.IOSystem;
+using Qanht.NightRealm.AbilitySystem;
+using Qanht.NightRealm.EventManagers;
+using Qanht.NightRealm.IOSystem;
 using UnityEngine;
 using UnityEngine.InputSystem;
 

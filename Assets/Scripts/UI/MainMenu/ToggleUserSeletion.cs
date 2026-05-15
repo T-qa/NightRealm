@@ -1,9 +1,9 @@
 using TMPro;
-using Tqa.DungeonQuest.EventManagers;
+using Qanht.NightRealm.EventManagers;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Tqa.DungeonQuest.MainMenu
+namespace Qanht.NightRealm.MainMenu
 {
     public class ToggleUserSeletion : MonoBehaviour
     {
