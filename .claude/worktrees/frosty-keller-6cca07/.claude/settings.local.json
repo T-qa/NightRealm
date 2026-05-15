@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:/Users/Asus/Documents/UnityProjects/2D/2D_RPG\" && grep -n \"indicator\" Assets/Scripts/Character/Boss/Abilities/BossDamageZoneSpell.cs 2>&1 | head && echo \"=== BaseInteractable current ===\" && cat -n Assets/Scripts/Interaction/Core/BaseInteractable.cs 2>&1 && echo \"=== other BaseInteractable subclasses ===\" && grep -rln \"BaseInteractable\" Assets/Scripts --include=*.cs 2>&1)"
+    ]
+  }
+}
