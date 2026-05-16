@@ -1,8 +1,18 @@
-# 🎮 Night Realm - Dungeon Quest
+# 🎮 Night Realm
 
 A 2D top-down RPG built with **Unity** featuring dynamic combat, strategic dungeon exploration, pathfinding AI enemies, and a rich progression system.
 
-![Game Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen) ![Unity Version](https://img.shields.io/badge/Unity-6000.3.10f1-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+<p align="center">
+  <a href="https://qanht.itch.io/night-realm">
+    <img src="https://img.shields.io/badge/🎮_Play_on_itch.io-Night_Realm-fa5c5c?style=for-the-badge&logo=itchdotio&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active%20Development-brightgreen" />
+  <img src="https://img.shields.io/badge/Unity-6000.3.10f1-blue" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
+</p>
 
 ---
 
