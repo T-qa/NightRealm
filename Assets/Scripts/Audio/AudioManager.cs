@@ -66,29 +66,62 @@ namespace Qanht.NightRealm.AudioManagement
 
         static AudioManager()
         {
+            // Initialize collections up-front so the type is always usable,
+            // even if a resource fails to load. Failing inside a static
+            // constructor would raise TypeInitializationException and
+            // permanently disable AudioManager for the whole session.
+            _audioAssets = new();
+            _audioGroups = new();
+
             Mixer = Resources.Load<AudioMixer>("Audio/AudioMixer");
-            _audioAssets = Resources
-                .LoadAll<AudioAsset>("Audio/AudioAssets")
-                .ToDictionary(audioAsset => audioAsset.name, audioAsset => audioAsset);
-            _audioSourcePrefab = Resources
-                .Load<GameObject>("Audio/AudioSourceHelper")
-                .GetComponent<Prefab>();
+            if (Mixer == null)
+            {
+                Debug.LogError(
+                    "[AudioManager] Could not load Resources/Audio/AudioMixer. Audio disabled."
+                );
+                return;
+            }
+
+            foreach (var audioAsset in Resources.LoadAll<AudioAsset>("Audio/AudioAssets"))
+            {
+                if (audioAsset == null || string.IsNullOrEmpty(audioAsset.name))
+                    continue;
+                _audioAssets[audioAsset.name] = audioAsset;
+            }
+
+            var audioSourceObject = Resources.Load<GameObject>("Audio/AudioSourceHelper");
+            if (audioSourceObject != null)
+                _audioSourcePrefab = audioSourceObject.GetComponent<Prefab>();
+            if (_audioSourcePrefab == null)
+            {
+                Debug.LogError(
+                    "[AudioManager] Could not load Resources/Audio/AudioSourceHelper "
+                        + "(or it is missing a Prefab component). Sound playback disabled."
+                );
+            }
 
             var mixerGroups = Mixer.FindMatchingGroups("");
-            _audioGroups = new()
-            {
-                {
-                    AudioAsset.MixerGroup.Master,
-                    mixerGroups.First((group) => group.name == "Master")
-                },
-                {
-                    AudioAsset.MixerGroup.Music,
-                    mixerGroups.First((group) => group.name == "Music")
-                },
-                { AudioAsset.MixerGroup.SFX, mixerGroups.First((group) => group.name == "SFX") },
-                { AudioAsset.MixerGroup.UI, mixerGroups.First((group) => group.name == "UI") },
-            };
+            RegisterMixerGroup(mixerGroups, AudioAsset.MixerGroup.Master, "Master");
+            RegisterMixerGroup(mixerGroups, AudioAsset.MixerGroup.Music, "Music");
+            RegisterMixerGroup(mixerGroups, AudioAsset.MixerGroup.SFX, "SFX");
+            RegisterMixerGroup(mixerGroups, AudioAsset.MixerGroup.UI, "UI");
+
             LoadVolume();
+        }
+
+        private static void RegisterMixerGroup(
+            AudioMixerGroup[] mixerGroups,
+            AudioAsset.MixerGroup key,
+            string groupName
+        )
+        {
+            var group = mixerGroups.FirstOrDefault(g => g.name == groupName);
+            if (group != null)
+                _audioGroups[key] = group;
+            else
+                Debug.LogError(
+                    $"[AudioManager] Mixer group \"{groupName}\" not found in AudioMixer."
+                );
         }
 
         public static void LoadVolume()
@@ -117,13 +150,17 @@ namespace Qanht.NightRealm.AudioManagement
                 return NullSource.Instance;
             }
 
-            if (!PoolManager.Get<PoolingAudioSource>(_audioSourcePrefab, out var audioSource))
+            if (
+                _audioSourcePrefab == null
+                || !PoolManager.Get<PoolingAudioSource>(_audioSourcePrefab, out var audioSource)
+            )
             {
                 Debug.LogError("Fail to create audio source. Please check your resource floder");
                 return NullSource.Instance;
             }
 
-            return audioSource.Play(audioAsset.AudioClip, _audioGroups[audioAsset.Mixer]);
+            _audioGroups.TryGetValue(audioAsset.Mixer, out var mixerGroup);
+            return audioSource.Play(audioAsset.AudioClip, mixerGroup);
         }
     }
 }
