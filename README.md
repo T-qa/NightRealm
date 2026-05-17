@@ -88,7 +88,7 @@ A 2D top-down RPG built with **Unity** featuring dynamic combat, strategic dunge
 
 | Component | Technology |
 |---|---|
-| **Engine** | Unity 2022.3.28f1 |
+| **Engine** | Unity 6000.3.10f1 |
 | **Graphics** | Universal Render Pipeline (URP) + 2D Sprite Suite |
 | **Input** | Unity Input System |
 | **Animation** | Animator Controller, Timeline |
@@ -130,7 +130,7 @@ Assets/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Unity 2022.3.28f1 or later
+- Unity 6000.3.10f1 or later
 - C# 9.0 or later
 - Windows/Mac/Linux for development
 
