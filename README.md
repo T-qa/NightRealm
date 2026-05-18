@@ -18,7 +18,7 @@ A 2D top-down RPG built with **Unity** featuring dynamic combat, strategic dunge
 
 ## 🎯 Overview
 
-**Night Realm: Dungeon Quest** is an immersive 2D top-down RPG that combines classic dungeon-crawling gameplay with modern game design. Explore a mysterious town, venture into dangerous dungeons, defeat AI-driven enemies, and battle epic bosses. Customize your character with runes, equipment, and consumables to overcome increasingly challenging encounters.
+**Night Realm:** is an immersive 2D top-down RPG that combines classic dungeon-crawling gameplay with modern game design. Explore a mysterious town, venture into dangerous dungeons, defeat AI-driven enemies, and battle epic bosses. Customize your character with runes, equipment, and consumables to overcome increasingly challenging encounters.
 
 ### Quick Start
 - **Game Scenes**: Menu → CutScene → Game (Town) → DungeonFloor1 → BossMap
