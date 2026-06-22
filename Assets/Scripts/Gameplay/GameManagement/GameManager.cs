@@ -56,10 +56,10 @@ public class GameManager : GlobalReference<GameManager>
 
     private IEnumerator Start()
     {
-        EventManager<string>.RaiseEvent("SendSystemMessage", "Wellcome to Dungeon Quest!");
+        EventManager<string>.RaiseEvent("SendSystemMessage", "Wellcome to Night Realm!");
         yield return null;
         EventManager.RaiseEvent("OnGameLoad");
-        yield return ChangeMapCoroutine("DungeonFloor1");
+        yield return ChangeMapCoroutine("Town");
         if (!_status.hasGuided)
         {
             _status.hasGuided = true;
