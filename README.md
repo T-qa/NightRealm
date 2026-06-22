@@ -29,9 +29,15 @@ A 2D top-down RPG built with **Unity** featuring dynamic combat, strategic dunge
 
 ## 🎬 Gameplay Demo
 
-[![Watch Gameplay](https://img.shields.io/badge/▶️-Watch%20Gameplay%20Video-blue?style=for-the-badge)](Docs/Video%20Gameplay.mp4)
+<p align="center">
+  <a href="https://drive.google.com/file/d/11nFr70qfzgp_YPgVmsDilnkmjrekDAyX/view?usp=drive_link">
+    <img src="Docs/Images/gameplay_thumbnail.png" width="800" alt="Night Realm Gameplay"/>
+  </a>
+</p>
 
-[📽️ Full Gameplay Walkthrough](Docs/Video%20Gameplay.mp4) - Watch the video to see the core gameplay, combat mechanics, and dungeon exploration in action!
+<p align="center">
+  <em>Click the image to watch the gameplay video.</em>
+</p>
 
 ---
 
